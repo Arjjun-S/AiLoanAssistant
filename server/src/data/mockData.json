@@ -1,0 +1,75 @@
+{
+  "loanTypes": [
+    {
+      "id": "personal",
+      "name": "Personal Loan",
+      "minAmount": 10000,
+      "maxAmount": 500000,
+      "interestRate": 12.5,
+      "tenureMonths": [12, 24, 36, 48, 60]
+    },
+    {
+      "id": "home",
+      "name": "Home Loan",
+      "minAmount": 500000,
+      "maxAmount": 10000000,
+      "interestRate": 8.5,
+      "tenureMonths": [60, 120, 180, 240, 360]
+    },
+    {
+      "id": "car",
+      "name": "Car Loan",
+      "minAmount": 100000,
+      "maxAmount": 2000000,
+      "interestRate": 9.5,
+      "tenureMonths": [12, 24, 36, 48, 60, 84]
+    },
+    {
+      "id": "education",
+      "name": "Education Loan",
+      "minAmount": 50000,
+      "maxAmount": 2000000,
+      "interestRate": 10.0,
+      "tenureMonths": [36, 48, 60, 84, 120]
+    }
+  ],
+  "mockCustomers": [
+    {
+      "pan": "ABCDE1234F",
+      "name": "Rahul Sharma",
+      "email": "rahul.sharma@email.com",
+      "phone": "9876543210",
+      "salary": 75000,
+      "creditScore": 750,
+      "employer": "Tech Solutions Pvt Ltd",
+      "employmentType": "salaried"
+    },
+    {
+      "pan": "XYZAB5678G",
+      "name": "Priya Patel",
+      "email": "priya.patel@email.com",
+      "phone": "9876543211",
+      "salary": 45000,
+      "creditScore": 680,
+      "employer": "Global Services Inc",
+      "employmentType": "salaried"
+    },
+    {
+      "pan": "LMNOP9012H",
+      "name": "Amit Kumar",
+      "email": "amit.kumar@email.com",
+      "phone": "9876543212",
+      "salary": 20000,
+      "creditScore": 620,
+      "employer": "Local Store",
+      "employmentType": "self-employed"
+    }
+  ],
+  "bankDetails": {
+    "name": "TechBank Financial Services",
+    "branch": "Digital Banking Division",
+    "address": "123 Finance Street, Mumbai - 400001",
+    "ifsc": "TECH0001234",
+    "logo": "TechBank"
+  }
+}
