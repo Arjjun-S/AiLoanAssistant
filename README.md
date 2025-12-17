@@ -30,33 +30,33 @@ This MVP demonstrates an **Agentic AI architecture** where multiple specialized 
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                     FRONTEND (React)                         │
+│                     FRONTEND (React)                        │
 │   Chat UI → API Calls → Display Responses & PDF Downloads   │
 └─────────────────────────────────────────────────────────────┘
                               │
                               ▼
-┌─────────────────────────────────────────────────────────────┐
-│                     BACKEND (Express)                        │
-│                                                              │
-│  ┌─────────────────────────────────────────────────────┐    │
-│  │                   MASTER AGENT                       │    │
-│  │           (Orchestrator - Controls Flow)             │    │
-│  └─────────────────────────────────────────────────────┘    │
-│         │              │              │              │       │
-│         ▼              ▼              ▼              ▼       │
-│  ┌───────────┐  ┌───────────┐  ┌───────────┐  ┌───────────┐ │
-│  │   SALES   │  │VERIFICATION│  │UNDERWRITING│ │ SANCTION  │ │
-│  │   AGENT   │  │   AGENT   │  │   AGENT   │  │   AGENT   │ │
-│  │           │  │           │  │           │  │           │ │
-│  │ Collects  │  │   Mock    │  │   Rule-   │  │ Generates │ │
-│  │   Data    │  │    KYC    │  │   Based   │  │    PDF    │ │
-│  └───────────┘  └───────────┘  └───────────┘  └───────────┘ │
-│                                                              │
-│  ┌─────────────────────────────────────────────────────┐    │
-│  │                    SERVICES                          │    │
-│  │     OpenRouter (LLM)    │    PDFKit (Documents)     │    │
-│  └─────────────────────────────────────────────────────┘    │
-└─────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────────┐
+│                        BACKEND (Express)                      │
+│                                                               │
+│   ┌─────────────────────────────────────────────────────┐     │
+│   │                   MASTER AGENT                      │     │
+│   │           (Orchestrator - Controls Flow)            │     │
+│   └─────────────────────────────────────────────────────┘     │
+│         │              │              │              │        │
+│         ▼              ▼              ▼              ▼        │
+│  ┌───────────┐  ┌────────────┐  ┌────────────┐  ┌───────────┐ │
+│  │   SALES   │  │VERIFICATION│  │UNDERWRITING│  │ SANCTION  │ │
+│  │   AGENT   │  │   AGENT    │  │   AGENT    │  │   AGENT   │ │
+│  │           │  │            │  │            │  │           │ │
+│  │ Collects  │  │    Mock    │  │    Rule    │  │ Generates │ │
+│  │   Data    │  │     KYC    │  │   Based    │  │    PDF    │ │
+│  └───────────┘  └────────────┘  └────────────┘  └───────────┘ │
+│                                                               │
+│    ┌─────────────────────────────────────────────────────┐    │
+│    │                    SERVICES                         │    │
+│    │     OpenRouter (LLM)    │    PDFKit (Documents)     │    │
+│    └─────────────────────────────────────────────────────┘    │
+└───────────────────────────────────────────────────────────────┘
 ```
 
 ### Agent Responsibilities
@@ -77,7 +77,8 @@ Deploed link: https://ailoanassistant-1.onrender.com/
 ### Video demo: 
 
 
-https://github.com/user-attachments/assets/2128350c-0d55-45f9-a893-dc6271e167ad
+https://github.com/user-attachments/assets/a97aa631-836c-4b99-8286-49f5404a07ef
+
 
 
 ### Prerequisites
