@@ -73,6 +73,13 @@ This MVP demonstrates an **Agentic AI architecture** where multiple specialized 
 
 ## 🚀 Quick Start
 
+Deploed link: https://ailoanassistant-1.onrender.com/
+### Video demo: 
+
+
+https://github.com/user-attachments/assets/2128350c-0d55-45f9-a893-dc6271e167ad
+
+
 ### Prerequisites
 
 - Node.js 18+ 
