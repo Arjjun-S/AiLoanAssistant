@@ -436,8 +436,11 @@ MIT License - Built for educational and demonstration purposes.
 
 ## 👥 Team
 
-Built with ❤️ for EY Hackathon 2024
-
+Arjjun S
+H A Pranav Jai
+S M Sudharshan
+Nikshitha
+Pooja 
 ---
 
 ## 🙏 Acknowledgments
